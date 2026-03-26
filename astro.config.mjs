@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://ProfPrivi.github.io',
+  	base: '/sistemi_quinta', // (ricorda lo slash iniziale!)
 	integrations: [
 		starlight({
 			title: 'Appunti di Sistemi e Reti',
