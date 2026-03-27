@@ -12,6 +12,9 @@ export default defineConfig({
 			logo: {
         		src: './src/assets/greppi_net.png',
      				},
+			customCss: [
+        './src/styles/custom.css',
+      					],
 			sidebar: [
       					// --- PRIMA CATEGORIA ---
       					{

@@ -1,0 +1,30 @@
+:root {
+  /* --- Colore Principale (Azzurro/Ciano) --- */
+  --sl-hue: 20; 
+  --sl-color-accent-low: hsl(var(--sl-hue), 80%, 20%);
+  --sl-color-accent: hsl(var(--sl-hue), 90%, 50%);
+  --sl-color-accent-high: hsl(var(--sl-hue), 80%, 80%);
+  --sl-color-text-accent: hsl(var(--sl-hue), 100%, 70%);
+
+  /* --- SFONDI TEMA SCURO (Dark Mode) --- */
+  /* Sfondo della pagina centrale (Blu notte molto scuro) */
+  --sl-color-bg: #4b4338; 
+  /* Sfondo del menu laterale e barra in alto (Blu notte leggermente più chiaro) */
+  --sl-color-bg-nav: #38231b; 
+  --sl-color-bg-sidebar: #4b4338;    /* 3. Sfondo della barra A SINISTRA */
+}
+
+:root[data-theme='light'] {
+  /* --- Colore Principale Tema Chiaro --- */
+  --sl-color-accent-low: hsl(var(--sl-hue), 80%, 80%);
+  --sl-color-accent: hsl(var(--sl-hue), 90%, 40%);
+  --sl-color-accent-high: hsl(var(--sl-hue), 80%, 20%);
+  --sl-color-text-accent: hsl(var(--sl-hue), 90%, 30%);
+
+  /* --- SFONDI TEMA CHIARO (Light Mode) --- */
+  /* Sfondo della pagina centrale (Bianco puro o leggermente ghiaccio) */
+  --sl-color-bg: #d4d1c0; 
+  /* Sfondo del menu laterale (Grigio-azzurrino chiarissimo) */
+  --sl-color-bg-nav: #a99799; 
+    --sl-color-bg-sidebar: #d4d1c0;    /* 3. Sfondo della barra A SINISTRA */
+}
