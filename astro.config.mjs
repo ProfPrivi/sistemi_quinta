@@ -45,12 +45,34 @@ export default defineConfig({
       					}, 
 						// quarta categoria
 						{
+        				label: 'Servizi di Rete e Livello Applicativo',
+        				items: [
+          						{ label: 'Il Protocollo DHCP', link: '/dhcp/' },
+          						{ label: 'Il sistema DNS', link: '/dns/' },
+								{ label: 'Protocolli Web HTTP/HTTPS', link: '/http-https/' },
+								{ label: 'Active Directory e LDAP', link: '/ad-ldap/' }
+        						]
+      					},
+						{
         				label: 'Cloud Computing e Virtualizzazione',
         				items: [
           						{ label: 'Virtualizzazione e Hypervisor', link: '/virtualizzazione-hypervisor/' },
           						{ label: 'Containerizzazione', link: '/containerizzazione/' },
 								{ label: 'Modelli di servizi Cloud', link: '/cloud/' },
 								{ label: 'Edge computing vs Cloud computing', link: '/edge-cloud/' }
+        						]
+      					},
+						// quinta categoria
+						{
+        				label: 'Alta Affidabilità e Resilienza',
+        				items: [
+								{ label: 'Business continuity e Disaster Recovery', link: '/business-disaster/' }
+        						]
+      					},
+						{
+        				label: 'Sviluppo Dati e Applicazioni',
+        				items: [
+								{ label: 'Progettazione DB e Sviluppo web/API REST', link: '/info/' }
         						]
       					},
 						{
