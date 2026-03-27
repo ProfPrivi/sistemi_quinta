@@ -25,9 +25,11 @@ export default defineConfig({
         				label: 'Sicurezza e Protezione',
        					items: [
          						{ label: 'Le VPN', link: '/vpn/' },
+								{ label: 'MFA e Zero Trust', link: '/mfa-zero/' },
           						{ label: 'IDS, IPS e DPI', link: '/ids-ips-dpi/' },
 								{ label: 'Attacchi e soluzioni', link: '/attacchi-soluzioni/' },
-								{ label: 'Firewall e ACL', link: '/firewall-acl/' }							
+								{ label: 'Firewall e ACL', link: '/firewall-acl/' },
+								{ label: 'AAA, RADIUS e 802.1X', link: '/aaa-radius-8021x/' }								
         						]
       					}, // <-- Altra virgola!
 
@@ -36,7 +38,9 @@ export default defineConfig({
         				label: 'Tecnologie Avanzate',
         				items: [
           						{ label: 'Le reti MPLS', link: '/mpls/' },
-          						{ label: 'IoT e MQTT', link: '/iot-mqtt/' }
+								{ label: 'Le reti SD-WAN', link: '/sdwan/' },
+          						{ label: 'IoT e MQTT', link: '/iot-mqtt/' },
+								{ label: '5G e Satellite', link: '/5g-satellite/' }
         						]
       					}, 
 						// quarta categoria
@@ -45,7 +49,8 @@ export default defineConfig({
         				items: [
           						{ label: 'Virtualizzazione e Hypervisor', link: '/virtualizzazione-hypervisor/' },
           						{ label: 'Containerizzazione', link: '/containerizzazione/' },
-								{ label: 'Modelli di servizi Cloud', link: '/cloud/' }
+								{ label: 'Modelli di servizi Cloud', link: '/cloud/' },
+								{ label: 'Edge computing vs Cloud computing', link: '/edge-cloud/' }
         						]
       					},
 						{
