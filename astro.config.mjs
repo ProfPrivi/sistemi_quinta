@@ -9,6 +9,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Appunti di Sistemi e Reti',
+			logo: {
+        		src: './src/assets/greppi_net.png',
+     				},
 			sidebar: [
       					// --- PRIMA CATEGORIA ---
       					{
