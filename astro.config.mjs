@@ -22,7 +22,8 @@ export default defineConfig({
         				items: [
           						{ label: 'Subnetting e VLSM', link: '/subnetting-vlsm/' },
          						{ label: 'Le VLAN e il Tagging', link: '/vlan/' },
-								{ label: 'Il routing', link: '/routing/' }
+								{ label: 'Il routing', link: '/routing/' },
+								{ label: 'Cablaggio strutturato', link: '/cab-strutt/' }
        							]
       					}, // <-- Virgola importantissima che separa le categorie!
 
@@ -79,6 +80,20 @@ export default defineConfig({
         				label: 'Sviluppo Dati e Applicazioni',
         				items: [
 								{ label: 'Progettazione DB e Sviluppo web/API REST', link: '/info/' }
+        						]
+      					},
+						{
+        				label: 'Cablaggio Strutturato',
+        				items: [
+								{ label: 'Introduzione al Cablaggio Strutturato', link: '/cab-strutt/' }
+        						]
+      					},
+						{
+        				label: 'Seconda Prova',
+        				items: [
+								{ label: 'Struttura sviluppo traccia', link: '/sviluppo-traccia/' },
+								{ label: 'Testo traccia', link: '/testo-traccia/' },
+								{ label: 'Sviluppo Traccia', link: '/traccia/' }
         						]
       					},
 						{
