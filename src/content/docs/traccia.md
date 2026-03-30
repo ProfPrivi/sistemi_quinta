@@ -20,6 +20,6 @@ Questo sviluppo di traccia non rappresenta in assoluto una soluzione perfetta, m
 </style>
 
 <iframe 
-  src={import.meta.env.BASE_URL + 'pdf/sviluppo_sistemi.pdf'} 
+  src="pdf/sviluppo_sistemi.pdf" 
   style="width: 100%; height: 85vh; min-height: 800px; border: 1px solid #ccc; border-radius: 8px;">
 </iframe>
