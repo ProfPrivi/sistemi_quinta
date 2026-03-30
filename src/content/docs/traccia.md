@@ -5,7 +5,7 @@ tableOfContents: false
 ---
 
 Questo sviluppo di traccia non rappresenta in assoluto una soluzione perfetta, ma definisce uno schema di come deve essere sviluppata. 
-[clicca qui per scaricarla](../public/pdf/sviluppo_sistemi.pdf).
+[clicca qui per scaricarla](/pdf/sviluppo_sistemi.pdf).
 
 ---
 
@@ -20,6 +20,6 @@ Questo sviluppo di traccia non rappresenta in assoluto una soluzione perfetta, m
 </style>
 
 <iframe 
-  src="../public/pdf/sviluppo_sistemi.pdf" 
+  src="pdf/sviluppo_sistemi.pdf" 
   style="width: 100%; height: 85vh; min-height: 800px; border: 1px solid #ccc; border-radius: 8px;">
 </iframe>
