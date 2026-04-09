@@ -24,7 +24,7 @@ export default defineConfig({
           						{ label: 'Subnetting e VLSM', link: '/subnetting-vlsm/' },
          						{ label: 'Le VLAN e il Tagging', link: '/vlan/' },
 								{ label: 'Il routing', link: '/routing/' },
-								{ label: 'Cablaggio strutturato', link: '/cab-strutt/' }
+								//{ label: 'Cablaggio strutturato', link: '/cab-strutt/' }
        							]
       					}, // <-- Virgola importantissima che separa le categorie!
 
