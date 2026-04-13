@@ -38,7 +38,8 @@ export default defineConfig({
           						{ label: 'IDS, IPS e DPI', link: '/ids-ips-dpi/' },
 								{ label: 'Attacchi e soluzioni', link: '/attacchi-soluzioni/' },
 								{ label: 'Firewall e ACL', link: '/firewall-acl/' },
-								{ label: 'AAA, RADIUS e 802.1X', link: '/aaa-radius-8021x/' }								
+								{ label: 'AAA, RADIUS e 802.1X', link: '/aaa-radius-8021x/' },
+								{ label: 'Wi-Fi security', link: '/wifi-byod-8021x/' }								
         						]
       					}, // <-- Altra virgola!
 
