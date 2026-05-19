@@ -103,7 +103,9 @@ export default defineConfig({
         				items: [
 								{ label: 'Struttura sviluppo traccia', link: '/sviluppo-traccia/' },
 								{ label: 'Testo traccia', link: '/testo-traccia/' },
-								{ label: 'Sviluppo Traccia', link: '/traccia/' }
+								{ label: 'Sviluppo Traccia', link: '/traccia/' },
+								{ label: 'Traccia Simulazione', link: '/traccia-simul/' },
+								{ label: 'Sviluppo Simulazione', link: '/sviluppo-simul/' }
         						]
       					},
 						{
